@@ -1,5 +1,9 @@
 # frozen_string_literal: true
 
+require 'bolt_spec/plans'
+include BoltSpec::Plans
+BoltSpec::Plans.init
+
 require 'puppetlabs_spec_helper/module_spec_helper'
 require 'rspec-puppet-facts'
 

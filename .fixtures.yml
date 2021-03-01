@@ -1,0 +1,8 @@
+fixtures:
+  forge_modules:
+    http_request:
+      repo: "puppetlabs/http_request"
+      ref: "0.2.1"
+    ruby_task_helper:
+      repo: "puppetlabs/ruby_task_helper"
+      ref: "0.6.0"
